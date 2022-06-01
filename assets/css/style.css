@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/**** NAVBAR***/
+
+.logo {
+   width: 50px;
+   height: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, apple-system, Helvetica, Arial, sans-serif;
+    background: #ae012b;
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-list {
+    display: inline;
+    display: flex;
+    list-style: none;
+    height: 25px;
+}
+
+.nav-list li {
+  letter-spacing: 2px;
+  margin-left: 30px;
+}
+
+
+/**** SECTION IMAGENS****/
+
+.main {
+    background-color: hsl(0, 0%, 90%);
+    margin-bottom: auto;
+    display: flex;
+    transition: 'background-color' 300ms;
+}
+
+.leftside {
+    flex: 1;
+}
+
+.leftside .imagens {
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+}
+
+.imagens {
+    margin-left: 80px;
+    width: 10px;
+    padding: 10px;
+}
+
+.imagens img {
+    padding: 23px;
+}
+
+.imagens :first-child {
+    padding-top: 60px;
+}
+
+
+/**** SECTION TEXT****/
+
+.text-rightside {
+    flex-direction: column;
+    display: flex;
+    flex: 2;
+}
+
+.inst-text:first-child {
+    padding: 60px;
+}
+
+.inst-text h1 {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    height: auto;
+}
+
+.inst-text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    height: auto;
+}
+
+.inst-text p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    height: auto;
+    display: flex;
+}
